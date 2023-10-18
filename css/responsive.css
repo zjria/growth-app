@@ -1,0 +1,128 @@
+@media (max-width: 576px) {
+    .nanbar .main-menu {
+        display: none;
+    }
+
+    .nanbar .hamburger-button {
+        display: block;
+    }
+
+    .text-xxl {
+        font-size: 2rem;
+    }
+
+    .text-xl {
+        font-size: 1.9rem;
+    }
+
+    .text-lg {
+        font-size: 1.5rem;
+    }
+
+    .text-md {
+        font-size: 1.1rem;
+    }
+
+    .hero .hero-content {
+        width: 100%;
+    }
+
+    h1.hero-heading.text-xxl {
+        text-align: center;
+    }
+
+    .hero .hero-content, .hero .hero-content .hero-text {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-buttons .btn {
+        display: block;
+        margin: 10px 0px;
+    }
+
+    .hero .container {
+        background: url(../images/hero-bg-mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 350px 330px;
+        height: 700px;
+    }
+
+    .testimonials .testimonial-heading {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .testimonial-grids, .pricing-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .nanbar .main-menu {
+        display: none;
+    }
+
+    .nanbar .hamburger-button {
+        display: block;
+    }
+
+    .text-xxl {
+        font-size: 2rem;
+    }
+
+    .text-xl {
+        font-size: 1.9rem;
+    }
+
+    .text-lg {
+        font-size: 1.5rem;
+    }
+
+    .text-md {
+        font-size: 1.1rem;
+    }
+
+    .testimonials .testimonial-heading {
+        width: 100%;
+    }
+
+    .hero .hero-content, .hero .hero-content .hero-text {
+        width: 100%;
+    }
+
+    .hero .container {
+        margin: 0 20px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 2fr 2fr;
+        justify-items: center;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .hero .container {
+        margin: 0 20px;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+}
